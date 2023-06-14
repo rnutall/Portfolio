@@ -5,7 +5,9 @@ export default function Contact() {
     <div>
       <h1>Contact Page</h1>
       <p>
-        
+        email: rnutall1@Gmail.com       
+         github: https://github.com/rnutall
+
       </p>
     </div>
   );

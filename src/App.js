@@ -3,7 +3,7 @@ import "./App.css";
 import NavTabs from "./components/NavTabs/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Contact from "./components/pages/Contacts";
+import Contact from "./components/pages/Contact";
 import PortfolioContainer from "./components/pages/PortfolioContacts";
 
 function App() {
@@ -20,11 +20,12 @@ function App() {
     if (currentPage === "About") {
       return <About />;
     }
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
     if (currentPage === "Portfolio") {
       return <PortfolioContainer />;
     }
-
-    return <Contact />;
   };
   return (
     <div className="App">
@@ -32,6 +33,7 @@ function App() {
       <main>{renderPage()}</main>
     </div>
   );
-}
+};
+
 
 export default App;

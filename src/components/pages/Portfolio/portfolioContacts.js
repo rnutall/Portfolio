@@ -7,7 +7,7 @@ export default function PortfolioContainer() {
       <h1>This is my Portfolio page</h1>
     </div>);  
 
-
+  };
 // function kitchenSink() {
 //     return (
 //       <Card style={{ width: '18rem' }}>
