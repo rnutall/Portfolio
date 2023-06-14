@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
 import NavTabs from "./components/NavTabs/NavTabs";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import PortfolioContainer from "./components/pages/PortfolioContacts";
-
+import Home from "./components/pages/Home/home";
+import About from "./components/pages/About/about";
+import Contact from "./components/pages/Contact/contact";
+import PortfolioContainer from "./components/pages/PortfolioContainer/PortfolioContacts";
+import footer from "./components/pages/footer";
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
 
@@ -30,6 +30,12 @@ function App() {
   return (
     <div className="App">
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main>{renderPage()}</main>
+    </div>
+  );
+  return (
+    <div className="App">
+      <About currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>{renderPage()}</main>
     </div>
   );
