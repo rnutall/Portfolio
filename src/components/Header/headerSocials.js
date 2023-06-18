@@ -1,5 +1,5 @@
 import React from "react";
-import (Bslinkedin) from "react-icon/bs"
+import Bslinkedin from "react-icon/bs";
 
 const headerSocials = () => {
     <div className="header_socials">
