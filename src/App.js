@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import NavTabs from "./components/NavTabs/NavTabs";
-import Home from "./components/pages/Home/home";
-import About from "./components/pages/About/about";
-import Contact from "./components/pages/Contact/contact";
-import PortfolioContainer from "./components/pages/PortfolioContainer/PortfolioContacts";
-import footer from "./components/pages/footer";
+import Homepage from "./components/pages/Home";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import PortfolioContainer from "./components/pages/Portfolio";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
 
@@ -15,7 +17,7 @@ function App() {
 
   const renderPage = () => {
     if (currentPage === "Home") {
-      return <Home />;
+      return <Homepage />;
     }
     if (currentPage === "About") {
       return <About />;
@@ -31,14 +33,16 @@ function App() {
     <div className="App">
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>{renderPage()}</main>
+      <Header />
+      <Footer />
     </div>
   );
-  return (
-    <div className="App">
-      <About currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main>{renderPage()}</main>
-    </div>
-  );
+  // return (
+  //   <div className="App">
+  //     <About currentPage={currentPage} handlePageChange={handlePageChange} />
+  //     <main>{renderPage()}</main>
+  //   </div>
+  // );
 };
 
 

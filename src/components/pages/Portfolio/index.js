@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-
+import "./portfolio.css"
 
 export default function PortfolioContainer() {
   return (
     <div>
       <h1>This is my Portfolio page</h1>
-    </div>);  
+    </div>
+  );  
 
-  };
+  }
 // function kitchenSink() {
 //     return (
 //       <Card style={{ width: '18rem' }}>

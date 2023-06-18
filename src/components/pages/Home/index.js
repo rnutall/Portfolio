@@ -1,4 +1,5 @@
 import React from "react";
+import "./home.css";
 
 export default function Home() {
   return (
@@ -20,4 +21,3 @@ export default function Home() {
     </div>
   );
 }
-module.exports(Home);
