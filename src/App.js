@@ -5,8 +5,9 @@ import Homepage from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import PortfolioContainer from "./components/pages/Portfolio";
-import Header from "./components/Header";
+import Header from "./components/Header/header";
 import Footer from "./components/Footer";
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");

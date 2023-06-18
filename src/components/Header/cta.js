@@ -1,6 +1,6 @@
 import React from "react";
-import CTA from './cta'
-export default CTA;
+import CV from ".. /../Assets/cv.pdf";
+
 const CTA = () => {
         return (
             <div className="cta">
@@ -10,3 +10,4 @@ const CTA = () => {
         )
 }
 
+export default CTA;
