@@ -1,0 +1,23 @@
+.projectContainer {
+    display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.project1{
+    width: 20%
+}
+
+.buttonContainer {
+    display: flex;
+
+}
+
+.buttonContainer button{
+    margin: 20px;
+}
