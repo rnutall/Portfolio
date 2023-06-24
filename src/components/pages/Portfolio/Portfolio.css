@@ -1,23 +1,33 @@
+.portfolioImg {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  justify-content: auto;
+}
+
 .projectContainer {
-    display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 10px;
+
 }
 
-.project1{
-    width: 20%
+.project1 {
+  width: 20%;
 }
 
 .buttonContainer {
-    display: flex;
-
+  display: flex;
 }
 
-.buttonContainer button{
-    margin: 20px;
+.buttonContainer button {
+  margin: 20px;
 }

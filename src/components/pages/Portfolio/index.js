@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import weatherz from  '../../../assets/weatherz.png'
 import "./portfolio.css";
 
 export default function PortfolioContainer() {
@@ -6,7 +7,7 @@ export default function PortfolioContainer() {
     <div className="projectContainer">
       <div className="card">
         <div>
-          <img className="Project 1" src='C:\Users\Owner\OneDrive\Pictures\project pictures\Weatherz Screenshot 2023-06-21 235835.png' alt=""/>
+          <img className="Project-1 portfolioImg" src={weatherz} alt=""/>
         </div>
         <div className="buttonContainer">
           <button type="button"><a href="https://github.com/rnutall/Weatherz">Weatherz</a></button>
@@ -16,7 +17,7 @@ export default function PortfolioContainer() {
 
       <div className="card">
         <div>
-          <img className="project 2" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
+          <img className="project-2 portfolioImg" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
         </div>
         <div className="buttonContainer">
           <button type="button"><a href="https://github.com/xybai0103/babyNameApp">Baby Name App</a></button>
@@ -26,41 +27,41 @@ export default function PortfolioContainer() {
 
       <div className="card">
         <div>
-          <img className="project 3" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
+          <img className="project-3 portfolioImg" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
         </div>
         <div className="buttonContainer">
-          <button type="button"><a href="#">project name</a></button>
+          <button type="button"><a href="https://github.com/rnutall/Book_Search_Engine-MERN">Book_Search_Engine-MERN</a></button>
           <button type="button"><a href="#">deployed site</a></button>
         </div>
       </div>
 
       <div className="card">
         <div>
-          <img className="project 4" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
+          <img className="project-4 portfolioImg" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
         </div>
         <div className="buttonContainer">
-          <button type="button"><a href="#">project name</a></button>
+          <button type="button"><a href="https://github.com/rnutall/back-end_E-Commerce">back-end_E-Commerce</a></button>
           <button type="button"><a href="#">deployed site</a></button>
         </div>
       </div>
 
       <div className="card">
         <div>
-          <img className="project 5" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
+          <img className="project-5 portfolioImg" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
         </div>
         <div className="buttonContainer">
-          <button type="button"><a href="#">project name</a></button>
-          <button type="button"><a href="#">deployed site</a></button>
+          <button type="button"><a href="https://github.com/stephen-castillo/Project2">Quickdecks</a></button>
+          <button type="button"><a href="https://quickdecks.herokuapp.com/">deployed site</a></button>
         </div>
       </div>
 
       <div className="card">
         <div>
-          <img className="project 6" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
+          <img className="project-6 portfolioImg" src='https://cdn.britannica.com/98/214598-050-9879F2FA/giant-sequoia-tree-Sequoia-National-Park-California.jpg'  alt=""/>
         </div>
         <div className="buttonContainer">
-          <button type="button"><a href="#">project name</a></button>
-          <button type="button"><a href="#">deployed site</a></button>
+          <button type="button"><a href="https://github.com/rnutall/Security-Lock">Security-lock</a></button>
+          <button type="button"><a href="https://rnutall.github.io/Security-Lock/">deployed site</a></button>
         </div>
       </div>
     </div>
