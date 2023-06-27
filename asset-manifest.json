@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ee8f9dc.css",
-    "main.js": "/static/js/main.e8aa17c5.js",
-    "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
-    "static/media/babyNameapp.png": "/static/media/babyNameapp.2ac841829acda5cae85d.png",
-    "static/media/quickdecks.png": "/static/media/quickdecks.b47743b21d452429f32d.png",
-    "static/media/weatherz.png": "/static/media/weatherz.b83b23e0eb41b2e665c2.png",
-    "index.html": "/index.html",
-    "main.9ee8f9dc.css.map": "/static/css/main.9ee8f9dc.css.map",
-    "main.e8aa17c5.js.map": "/static/js/main.e8aa17c5.js.map",
-    "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.9ee8f9dc.css",
+    "main.js": "/Portfolio/static/js/main.8548b8a9.js",
+    "static/js/787.d3befce1.chunk.js": "/Portfolio/static/js/787.d3befce1.chunk.js",
+    "static/media/babyNameapp.png": "/Portfolio/static/media/babyNameapp.2ac841829acda5cae85d.png",
+    "static/media/quickdecks.png": "/Portfolio/static/media/quickdecks.b47743b21d452429f32d.png",
+    "static/media/weatherz.png": "/Portfolio/static/media/weatherz.b83b23e0eb41b2e665c2.png",
+    "index.html": "/Portfolio/index.html",
+    "main.9ee8f9dc.css.map": "/Portfolio/static/css/main.9ee8f9dc.css.map",
+    "main.8548b8a9.js.map": "/Portfolio/static/js/main.8548b8a9.js.map",
+    "787.d3befce1.chunk.js.map": "/Portfolio/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ee8f9dc.css",
-    "static/js/main.e8aa17c5.js"
+    "static/js/main.8548b8a9.js"
   ]
 }
