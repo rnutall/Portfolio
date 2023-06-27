@@ -20,14 +20,16 @@
 
 }
 
-.project1 {
+/* .project1 {
   width: 20%;
-}
+} */
 
 .buttonContainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .buttonContainer button {
+
   margin: 20px;
 }
